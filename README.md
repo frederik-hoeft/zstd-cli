@@ -1,6 +1,6 @@
 # Zstandard CLI
 
-When searching online for a way to uncompress a `.zst` file on Windows, there were no clear, non-sketchy-looking pre-built binaries available. So instead of diving into the world of non-GitHub, inofficial downloads, I just threw together a few lines of C# code using trusted open-source libraries ([oleg-st/ZstdSharp](https://github.com/oleg-st/ZstdSharp) and [Cysharp/ConsoleAppFramework](https://github.com/Cysharp/ConsoleAppFramework)). Also I wanted to try out [Cysharp/ConsoleAppFramework](https://github.com/Cysharp/ConsoleAppFramework) to see how it compares to `System.CommandLine`, I like the idea of code-generation for argument parsing. Anyways, here's the result:
+When searching online for a way to uncompress a `.zst` file on Windows, there were no clear, non-sketchy-looking pre-built binaries available. So instead of diving into the world of non-GitHub, unofficial downloads, I just threw together a few lines of C# code using trusted open-source libraries ([oleg-st/ZstdSharp](https://github.com/oleg-st/ZstdSharp) and [Cysharp/ConsoleAppFramework](https://github.com/Cysharp/ConsoleAppFramework)). Also I wanted to try out [Cysharp/ConsoleAppFramework](https://github.com/Cysharp/ConsoleAppFramework) to see how it compares to `System.CommandLine`, I like the idea of code-generation for argument parsing. Anyways, here's the result:
 
 Compress a file:
 
